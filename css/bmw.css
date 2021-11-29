@@ -1,0 +1,633 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#fixchat{
+    width: 45px;
+    height: 45px;
+    background: url(../img/chat.png) no-repeat 0px 0px;
+    background-size: 45px;
+    position: fixed;
+    bottom: 100px;
+    right: 0px;
+}
+
+#father{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    /* left: 170px; */
+    z-index: 9;
+    box-shadow: -12px 85px 150px -101px rgb(59, 59, 59) inset;
+}
+
+#fix{
+    width: 78%;
+    height: 100px;
+    position: fixed;
+    left: 170px;
+    /* box-shadow: -12px 85px 150px -101px grey inset; */
+}
+
+#fix ul{
+    list-style: none;
+    width: 95%;
+    height: 100%;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    font-size: 0;
+}
+
+#fix ul li{
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    padding: 35px 18px 20px 18px;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+#fix ul li:hover{
+    border-bottom: 5px solid rgb(28,105,212);
+    cursor: pointer;
+}
+
+#fix ul .one,.two,.three{
+    float: right;
+    width: 70px;
+}
+
+#fix ul .one{
+    background: url(../img/position.png) no-repeat 20px 37px;
+    background-size: 24px;
+}
+
+#fix ul .two{
+    background: url(../img/person.png) no-repeat 13px 29px;
+    background-size: 42px;
+}
+
+#fix ul .three{
+    background: url(../img/search.png) no-repeat 13px 33px;
+    background-size: 35px;
+}
+
+#fix>img{
+    position: absolute;
+    top: 2px;
+    right: -40px;
+    width: 126px;
+}
+
+#blue{
+    height: 740px;
+    background: url(../img/large.jpg) no-repeat 0px 0px;
+    background-size: 100%;
+    position: relative;
+}
+
+.largeP{
+    font-size: 48px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 500px;
+    left: 30px;
+    margin-bottom: 10px;
+}
+
+#blue>input{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(6,83,182);
+    border: none;
+    position: relative;
+    top: 580px;
+    left: 30px;
+}
+
+#iX3{
+    height: 740px;
+    background: url(../img/iX3.jpg) no-repeat 0px 0px;
+    background-size: 100%;
+    position: relative;
+}
+
+#iX3>p:nth-of-type(1),#X3>p:nth-of-type(1){
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 510px;
+    left: 35px;
+    margin-bottom: 10px;
+    /* box-sizing: border-box; */
+}
+
+#iX3>p:nth-of-type(2),#X3>p:nth-of-type(2){
+    font-size: 25px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 580px;
+    left: 40px;
+    margin-bottom: 10px;
+}
+
+#iX3>input,#X3>input{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(6,83,182);
+    border: none;
+    position: absolute;
+    top: 630px;
+    left: 40px;
+}
+
+#X3{
+    height: 740px;
+    background: url(../img/X3.jpg) no-repeat 0px 0px;
+    background-size: 100%;
+    position: relative;
+}
+
+#twoPhoto{
+    width: 100%;
+    height: 757px;
+    position: relative;
+}
+
+#twoPhoto>.leftPhoto{
+    width: 757px;
+    display: inline-block;
+}
+
+#twoPhoto>.leftPhoto>img{
+    width: 757px;
+}
+
+#twoPhoto>.leftPhoto>p:nth-of-type(1){
+    font-size: 37px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 170px;
+    left: 40px;
+    margin-bottom: 10px;
+}
+#twoPhoto>.leftPhoto>p:nth-of-type(2){
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255,0.9);
+    text-indent: 75px;
+    position: absolute;
+    bottom: 140px;
+    left: 40px;
+    margin-top: 10px;
+    background: url(../img/iX.png) no-repeat 0px 0px;
+    background-size: 75px;
+}
+
+#twoPhoto>.leftPhoto>input{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(6,83,182);
+    border: none;
+    position: absolute;
+    bottom: 60px;
+    left: 40px;
+}
+
+#twoPhoto>.rightPhoto{
+    width: 757zpx;
+    display: inline-block;
+}
+
+#twoPhoto>.rightPhoto>img{
+    width: 757px;
+}
+
+#twoPhoto>.rightPhoto>p:nth-of-type(1){
+    font-size: 37px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 170px;
+    right: 620px;
+    margin-bottom: 10px;
+}
+#twoPhoto>.rightPhoto>p:nth-of-type(2){
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255,0.9);
+    text-indent: 75px;
+    position: absolute;
+    bottom: 140px;
+    right: 488px;
+    margin-top: 10px;
+}
+
+#twoPhoto>.rightPhoto>input{
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(6,83,182);
+    border: none;
+    position: absolute;
+    bottom: 60px;
+    right: 563px;
+}
+
+/* 选择座驾轮播图部分 */
+#choose{
+    height: 600px;
+    background-color: rgb(242,242,242);
+}
+
+#choose>.first{
+    width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#choose>.first>p{
+    font-size: 37px;
+    font-weight: 300;
+    color: rgb(38,38,38);
+    margin: 80px 50px 40px 0px;
+    display: inline-block;
+}
+
+#choose>.first>input{
+    width: 180px;
+    height: 50px;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 80px 0px 40px 30px;
+    float: right;
+    vertical-align: bottom;
+}
+
+#choose>.first>input:hover{
+    color: white;
+    background-color: black;
+}
+
+/* 选择座驾部分 */
+#choose>.last{
+    width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#choose>.last>.c1{
+    display: inline-block;
+    width: 233px;
+    position: relative;
+    margin-right: -5px;
+}
+
+#choose>.last>.c1>img{
+    width: 233px;
+}
+
+#choose>.last>.c1>p{
+    position: absolute;
+    top: 117px;
+    right: 0px;
+    color: white;
+}
+
+#choose>.last>.c1 span:nth-of-type(1){
+    display: block;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 35px;
+}
+
+#choose>.last>.c1 span:nth-of-type(2){
+    display: block;
+    font-size: 150px;
+    margin-left: 32px;
+    margin-top: 10px;
+}
+
+/* 为您推荐部分 */
+#three>.middle{
+    width: 1400px;
+    /* height: 900px; */
+    margin: 0 auto 80px auto;
+    overflow: hidden;
+    font-size: 0;
+}
+
+#three>.middle>p{
+    font-size: 37px;
+    font-weight: 300;
+    color: rgb(38,38,38);
+    margin: 30px 50px 40px 0px;
+}
+
+#three>.middle>img{
+    width: 427px;
+    margin-right: 45px;
+}
+
+#three>.middle>img:nth-of-type(3),#three>.middle>input:nth-of-type(3){
+    margin: 0;
+}
+
+#three>.middle>input{
+    display: inline-block;
+    width: 427px;
+    height: 50px;
+    margin: 15px 45px 0 0;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#three>.middle>input:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+/* 图组部分 */
+#photo{
+    transform-style: preserve-3d;
+    overflow: hidden;
+}
+
+.d1{
+    width: 1012px;
+    height: 760px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.d1 img{
+    width: 1012px;
+    transition: all 1.2s;
+}
+
+.d1 img:hover,.d2 img:hover,.d3 img:hover,.d4 img:hover,.d5 img:hover,.d6 img:hover{
+    transform: scale(1.05);
+}
+
+.d1:hover,.d2:hover,.d3:hover,.d4:hover,.d5:hover,.d6:hover{
+    background-size: 103% 103%;
+}
+
+#photo p{
+    color: white;
+}
+
+.d1p1{
+    font-size: 26px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 120px;
+    left: 40px;
+}
+.d1p2{
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 80px;
+    left: 40px;
+}
+
+.d1p3{
+    font-size: 16px;
+    font-weight: 300;
+    text-indent: 20px;
+    background: url(../img/右箭头.png) no-repeat 0px 3px;
+    background-size: 14px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    transition: all 1s;
+}
+
+#photo a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#photo a:hover{
+    color: rgb(6,83,182);
+    transform: translateX(10px);
+}
+
+#photo .d1p3:hover{
+    background: url(../img/右箭头.png) no-repeat 10px 3px;
+    background-size: 14px;
+}
+
+.d2{
+    width: 506px;
+    height: 379px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+.d2 img,.d3 img{
+    transition: all 1.2s;
+}
+
+.d4 img,.d5 img,.d6 img{
+    width: 506px;
+    transition: all 1.2s;
+}
+.d3{
+    width: 506px;
+    height: 379px;
+    float: right;
+    position: relative;
+    margin-top: 2px;
+    overflow: hidden;
+}
+
+.d4{
+    width: 506px;
+    height: 356px;
+    float: left;
+    position: relative;
+    margin-top: 2px;
+    overflow: hidden;
+}
+.d5{
+    width: 506px;
+    height: 356px;
+    float: left;
+    position: relative;
+    margin-top: 2px;
+    margin-left: 1px;
+    overflow: hidden;
+}
+.d6{
+    width: 506px;
+    height: 356px;
+    float: right;
+    position: relative;
+    margin-top: 2px;
+    overflow: hidden;
+}
+
+/* 官方社交部分 */
+#official{
+    width: 100%;
+    height: 300px;
+}
+
+#official ul{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-bottom: 1px solid rgb(136, 135, 135);
+}
+
+#official ul li{
+    height: 200px;
+    line-height: 230px;
+    padding: 0 40px 0 40px;
+    list-style: none;
+    display: inline-block;
+}
+
+#official ul li a{
+    text-decoration: none;
+    color: rgb(39, 38, 38);
+    font-weight: bold;
+}
+#official ul li a:hover{
+    color: rgb(6,83,182);
+}
+
+#official ul li:nth-of-type(1){
+    background: url(../img/icon-tda.png) no-repeat 45px 45px;
+    background-size: 50px;
+}
+#official ul li:nth-of-type(2){
+    background: url(../img/icon-rfc.png) no-repeat 60px 45px;
+    background-size: 50px;
+}
+#official ul li:nth-of-type(3){
+    background: url(../img/icon-rfi.png) no-repeat 68px 45px;
+    background-size: 50px;
+}
+#official ul li:nth-of-type(4){
+    background: url(../img/icon-dlo.png) no-repeat 56px 45px;
+    background-size: 46px;
+}
+
+#official p{
+    height: 100px;
+    line-height: 100px;
+}
+
+#official p span{
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 100px 0 30px;
+    color: rgb(77, 77, 77);
+    font-weight: 300;
+}
+
+#official p a{
+    text-decoration: none;
+    color: rgb(131, 130, 130);
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 125px;
+}
+#official p a:hover{
+    color: black;
+}
+
+/* 联系我们部分 */
+#us{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(230,230,230);
+    overflow: hidden;
+}
+
+#us ul{
+    width: 80%;
+    margin: 80px auto 0 auto;
+    list-style: none;
+    border-top: 1px solid rgb(136, 135, 135);
+    padding-bottom: 90px;
+}
+
+#us ul li{
+    margin-right: 50px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 30px 0 20px;
+}
+
+#us ul li p{
+    margin: 5px 0 5px 0;
+}
+
+#us ul li .usLarge{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(77, 77, 77);
+    margin: 30px 0;
+
+}
+
+#us ul li p a{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(102,102,102);
+    text-decoration: none;
+}
+#us ul li p a:hover{
+    color: rgb(42,42,42);
+}
+
+/* 结尾脚注 */
+#foot{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+#foot span{
+    display: inline-block;
+    margin: 0 530px 0 164px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#foot a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(16, 98, 206);
+    margin-right: 15px;
+}
+
+#foot a:hover{
+    color: rgb(42, 42, 42);
+}
